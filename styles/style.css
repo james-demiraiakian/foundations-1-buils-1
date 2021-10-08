@@ -3,13 +3,38 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
+}
+
+header {
+    border: 2px solid black;
+    padding: 30px 50px;
+    margin-bottom: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
 }
 
 #generate {
     height: 25px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 7px;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    position: absolute;
+}
+
+#random-num {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }

@@ -10,8 +10,6 @@
 const generate = document.getElementById('generate');
 const randomNum = document.getElementById('random-num');
 
-
-
 generate.addEventListener('click', () => {
     randomNum.textContent = Math.floor(Math.random() * 2147483647);
 });
